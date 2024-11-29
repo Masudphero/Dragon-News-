@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom";
 import Header from "../components/Header";
 import LatestNews from "../components/LatestNews";
 import LeftNavbar from "../components/layout-component/LeftNavbar";
@@ -21,7 +22,11 @@ import Navbar from "../components/Navbar";
                <aside className="left col-span-3">
                 <LeftNavbar></LeftNavbar>
                </aside>
-               <section className="col-span-6">Main content</section>
+               <section className="col-span-6">Main content
+                <Outlet/>
+
+
+               </section>
                <aside className="right col-span-3">
                   <RightNav></RightNav>
                </aside>
