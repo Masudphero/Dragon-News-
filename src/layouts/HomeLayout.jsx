@@ -22,7 +22,7 @@ import Navbar from "../components/Navbar";
                <aside className="left col-span-3">
                 <LeftNavbar></LeftNavbar>
                </aside>
-               <section className="col-span-6">Main content
+               <section className="col-span-6">
                 <Outlet/>
 
 
