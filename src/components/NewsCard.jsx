@@ -54,3 +54,5 @@ const NewsCard = ({news}) => {
 };
 
 export default NewsCard;
+// news?.thumbnail_url
+// news?.thumbnail_url
